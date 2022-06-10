@@ -4,7 +4,6 @@ public class TempConvert
 {
     public double convert(double fah)
     {
-
         return (5.0/9.0) * (fah -32);
     }
     Scanner scanner = new Scanner(System.in);

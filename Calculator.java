@@ -14,6 +14,16 @@ public class Calculator
         return x-y;
     }
 
+    public int inmultire(int x, int y)
+    {
+        return x*y;
+    }
+
+    public int impartire(int x, int y)
+    {
+        return x/y;
+    }
+
     public void CalcSum()
     {
         System.out.println("Introduceti primul numar din suma:");
@@ -34,6 +44,28 @@ public class Calculator
         int secondNumber = mycalc.nextInt();
 
         System.out.println("Rezultatul este:"+minus(firstNumber,secondNumber));
+    }
+
+    public void CalcInmultire()
+    {
+        System.out.println("Introduceti primul numar din Inmultire:");
+        int firstNumber = mycalc.nextInt();
+
+        System.out.println("Introduceti al doilea numar din Inmultire:");
+        int secondNumber = mycalc.nextInt();
+
+        System.out.println("Rezultatul este:"+inmultire(firstNumber,secondNumber));
+    }
+
+    public void CalcImpartire()
+    {
+        System.out.println("Introduceti primul numar din Impartire:");
+        int firstNumber = mycalc.nextInt();
+
+        System.out.println("Introduceti al doilea numar din Impartire:");
+        int secondNumber = mycalc.nextInt();
+
+        System.out.println("Rezultatul este:"+impartire(firstNumber,secondNumber));
     }
 
 }
