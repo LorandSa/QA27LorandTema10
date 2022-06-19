@@ -18,6 +18,7 @@ public class Media
         double b = scanner.nextDouble();
         System.out.println("Introduceti al treilea numar din medie:");
         double c = scanner.nextDouble();
+        
         System.out.println("Rezultatul este:" + media(a,b,c));
 
     }

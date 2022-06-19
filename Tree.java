@@ -7,7 +7,6 @@ public class Tree {
                       " JJ  a     a   v   a     a";
 
         System.out.println(tree);
-
         return tree;
     }
 

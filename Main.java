@@ -12,15 +12,17 @@ public class Main {
         Tree copac = new Tree();
         copac.printtree();
 
+        Media aritmetica = new Media();
+        aritmetica.printmedia();
+
         Portret portret = new Portret();
         portret.printface();
 
         TempConvert conversie = new TempConvert();
         conversie.printconvert();
 
-        Media aritmetica = new Media();
-        aritmetica.printmedia();
-
+        InchesConvert inch = new InchesConvert();
+        inch.InchConvert();
     }
 
 }
